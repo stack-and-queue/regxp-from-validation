@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.visible {
+  visibility: visible !important;
+}
+.invisible {
+  visibility: hidden !important;
+}
+
+.success_img{
+    position: relative;
+    width: 25%;
+}
+
+.signup-success-msg{
+    display: none;
+}
+.signup-form,.login-form{
+    background-color:#d9ffe3;
+    padding: 5%;
+    box-shadow: #d9ffe3;
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.75);
+}
+.login-success-msg{
+    display: none;
+}
+.fa-eye{
+    cursor: pointer;
+}
+#tooltip:focus{
+    outline: none; 
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+}
